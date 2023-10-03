@@ -1,0 +1,91 @@
+.project-section{
+    height:800px;
+    color:#333333;
+    padding:20px 0px 100px;
+    background-color: rgb(251, 230, 230);
+}
+.hero-heading{
+    height:30px;
+    margin:0px 0px 15px;
+    padding:20px 0px 20px;
+    text-align:center;
+    text-transform:uppercase ;
+}
+.hero-space{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    width:50px;
+    padding-bottom:40px;
+    border-top:2px solid #c7c7c5;
+}
+.project-container{
+    height: 90%;
+    width:90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 1%;
+    gap: 1%;
+}
+.container-11{
+    background-color: white;
+    height:95%;
+    width:96%;
+}
+.container-image{
+    height:60%;
+    width:99.7%;
+}
+.container-imagee{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.im-1{
+    background-image: url("../image/tindog.png");
+    background-size: cover;
+}
+.im-2{
+    background-image: url("../image/landing_page.png");
+    background-size:cover;
+    
+}
+.im-3{
+    background-image: url("../image/dicee_game.png");
+    background-size: cover;
+}
+.im-4{
+    background-image: url("../image/amazon_clone.png");
+    background-size: cover;
+}
+.im-5{
+    background-image: url("../image/drum_kit.png");
+    background-size: cover;
+}
+.im-6{
+    background-image: url("../image/calculator.png");
+    background-size: cover;
+}
+.container-head{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-imagee:hover{
+    filter: brightness(60%);
+}
+.container-par{
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container-par:hover{
+    color: blue;
+}
